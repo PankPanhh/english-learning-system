@@ -1,0 +1,33 @@
+english-learning-system/
+│
+├── backend/
+│   ├── prisma/
+│   ├── src/
+│   ├── package.json
+│   └── .env
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── database/
+│   ├── 00_database.sql
+│   ├── 01_lookup.sql
+│   ├── 02_identity.sql
+│   ├── 03_learning.sql
+│   ├── 04_assessment.sql
+│   ├── 05_study.sql
+│   ├── 06_ai.sql
+│   ├── 07_system.sql
+│   ├── 08_constraints.sql
+│   ├── 09_indexes.sql
+│   ├── 10_seed_data.sql
+│   └── run_all.sql
+│
+│
+└── .gitignore
+
+Dùng Prisma để đọc (introspect) database hiện có: npx prisma db pull
+Sinh Prisma Client: npx prisma generate
