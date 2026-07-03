@@ -1,0 +1,22 @@
+# Node
+node_modules/
+
+# Build
+dist/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/dev.db
