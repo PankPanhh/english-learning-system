@@ -3,13 +3,15 @@ node_modules/
 
 # Build
 dist/
-
-# Logs
-logs/
-*.log
+coverage/
 
 # Environment
 .env
+.env.*
+
+# Logs
+*.log
+logs/
 
 # VS Code
 .vscode/
@@ -19,4 +21,7 @@ logs/
 Thumbs.db
 
 # Prisma
-prisma/dev.db
+backend/prisma/dev.db
+
+# Java (nếu sau này có)
+target/
